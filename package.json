@@ -1,0 +1,19 @@
+{
+  "name": "content-scraper",
+  "version": "1.0.0",
+  "description": "an app that allows the user to gather info from another website",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justincrich/content-scraper.git"
+  },
+  "author": "Justin Rich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justincrich/content-scraper/issues"
+  },
+  "homepage": "https://github.com/justincrich/content-scraper#readme"
+}
