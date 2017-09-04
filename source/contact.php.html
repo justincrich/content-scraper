@@ -1,0 +1,105 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Contact Mike</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,700" type="text/css">
+	<link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+
+	<div id="disclaimer" style="position: fixed; width: 100%; right: 0; left: 0; background: #1c1c1c; opacity: 50%; z-index: 100000000; padding: 10px; text-align: center; color: #999">
+        This site is for demonstration purposes only. To learn how to make this site, visit &nbsp;<a style="color: #EEE;" href="http://teamtreehouse.com/library/programming-2/build-a-simple-php-application">TeamTreehouse.com</a>.
+	</div>
+
+	<div class="header" style="padding-top: 40px;">
+
+		<div class="wrapper">
+
+			<h1 class="branding-title"><a href="index.html">Shirts 4 Mike</a></h1>
+
+			<ul class="nav">
+				<li class="shirts "><a href="shirts.php.html">Shirts</a></li>
+				<li class="contact on"><a href="contact.php.html">Contact</a></li>
+				<li class="cart"><a target="paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_cart&business=Q6NFNPFRBWR8S&display=1">Shopping Cart</a></li>
+			</ul>
+
+		</div>
+
+	</div>
+
+	<div id="content">
+    <div class="section page">
+
+        <div class="wrapper">
+
+            <h1>Contact</h1>
+
+            
+                <p>I&rsquo;d love to hear from you! Complete the form to send me an email.</p>
+
+                <form method="post" action="contact.php">
+
+                    <table>
+                        <tr>
+                            <th>
+                                <label for="name">Name</label>
+                            </th>
+                            <td>
+                                <input type="text" name="name" id="name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <label for="email">Email</label>
+                            </th>
+                            <td>
+                                <input type="text" name="email" id="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <label for="message">Message</label>
+                            </th>
+                            <td>
+                                <textarea name="message" id="message"></textarea>
+                            </td>
+                        </tr> 
+                        <tr style="display: none;">
+                            <th>
+                                <label for="address">Address</label>
+                            </th>
+                            <td>
+                                <input type="text" name="address" id="address">
+                                <p>Humans (and frogs): please leave this field blank.</p>
+                            </td>
+                        </tr>                   
+                    </table>
+                    <input type="submit" value="Send">
+
+                </form>
+
+            
+        </div>
+
+    </div>
+
+	</div>
+
+	<div class="footer">
+
+		<div class="wrapper">
+
+			<ul>		
+				<li><a href="http://twitter.com/treehouse">Twitter</a></li>
+				<li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
+			</ul>
+
+			<p>&copy;2017 Shirts 4 Mike</p>
+
+		</div>
+	
+	</div>
+
+</body>
+</html>
