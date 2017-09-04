@@ -75,13 +75,13 @@ price:
         });
       });
       process.then(out =>{
-        console.log(out);
-        let csv = json2csv({data:out,fieldNames:['Title','Price','Image URL','URL','Time']})
+
+        let csv = json2csv({data:out,fieldNames:['Title','Price','ImageURL','URL','Time']})
         fs.readdir('./data',(err,files)=>{
           //if no file add new file
           let date = new Date();
           let fileAddress = ''+date.getFullYear()+'-'+(date.getUTCMonth()+1)+'-'+date.getUTCDate()+'.csv';
-          console.log(fileAddress,files)
+
           if(files.includes(fileAddress)){
             //replace text in file if the file exists
             writeFile(csv);
@@ -95,7 +95,7 @@ price:
   }).catch(e=>{
 
     if(e.code === 'ENOTFOUND'){
-      console.log('There’s been a 404 error. Cannot connect to the to http://shirts4mike.com.')
+      console.log('There’s been a 404 error. Cannot connect to http://shirts4mike.com.')
     }
   });
 

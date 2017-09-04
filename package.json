@@ -4,7 +4,8 @@
   "description": "an app that allows the user to gather info from another website",
   "main": "index.js",
   "scripts": {
-    "test": "start"
+    "test": "start",
+    "start":"node scraper.js"
   },
   "repository": {
     "type": "git",
